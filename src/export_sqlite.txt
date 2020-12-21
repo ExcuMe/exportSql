@@ -1,0 +1,2 @@
+select * from cf_cfs_info
+SELECT * FROM CF_obj_prod_rela WHERE prod_sys_nbr IN ('YDDH_YF', 'YDDH')
