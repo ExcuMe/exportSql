@@ -352,12 +352,12 @@ public class SqliteSQLGenerator {
         // 使用Class.getResourceAsStream读取文件时用相对路径
 //        String file2 = "export_sqlite_data_select.txt";
 
-        String file2 = "D:\\code\\insert\\src\\main\\resources\\export_sqlite_data_select.txt";
-        insertFilePath = "D:\\code\\insert\\src\\main\\resources\\insertApi.sql";
-        deleteFilePath = "D:\\code\\insert\\src\\main\\resources\\deleteApi.sql";
+//        String file2 = "D:\\code\\insert\\src\\main\\resources\\export_sqlite_data_select.txt";
+//        insertFilePath = "D:\\code\\insert\\src\\main\\resources\\insertApi.sql";
+//        deleteFilePath = "D:\\code\\insert\\src\\main\\resources\\deleteApi.sql";
 
-//        String file2 = args[0];
-//        insertFilePath = args[1];
+        String file2 = args[0];
+        insertFilePath = args[1];
 //        String domain = args[2];
         executeSelectSQLFile(file2, null, "4");
 
